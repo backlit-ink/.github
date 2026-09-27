@@ -6,17 +6,17 @@
 
 ---
 
-Backlit is an NFT market where the buyer, the seller and the creator each know
-what was paid, and the chain does not. Every sale settles in one transaction
-that pays the seller, pays the creator's royalty in full and moves the NFT. The
-public receipt shows the new owner and proves the royalty was paid. The price
-is not on it.
+On Backlit, only the buyer, the seller and the creator know what an NFT sold
+for. Each sale settles in one transaction with the creator's royalty paid in
+full, and leaves a public receipt showing the new owner.
+
+Live on Robinhood Chain testnet at [testnet.backlit.ink](https://testnet.backlit.ink). Mainnet opens soon.
 
 ### Open source
 
 **[protocol](https://github.com/backlit-ink/protocol)** holds the contracts,
-the zero-knowledge circuits and the client cryptography. The contracts are
-immutable, and withdrawals cannot be paused.
+the zero-knowledge circuits and the client cryptography. Backlit's contracts
+cannot be upgraded, and nothing in them can pause a withdrawal.
 
 ### Links
 
