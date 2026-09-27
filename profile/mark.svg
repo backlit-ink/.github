@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="m-stem" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.62"/>
+      <stop offset="0.45" stop-color="#e6e8f0" stop-opacity="0.16"/>
+      <stop offset="0.82" stop-color="#f3c9a8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffe2c9" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="m-stem-rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#f3c9a8" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="m-orb" cx="0.36" cy="0.32" r="0.78">
+      <stop offset="0" stop-color="#eef0ff"/>
+      <stop offset="0.28" stop-color="#b8c2ff"/>
+      <stop offset="0.62" stop-color="#6a6fc4"/>
+      <stop offset="1" stop-color="#1c1d33"/>
+    </radialGradient>
+    <linearGradient id="m-orb-rim" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3c9a8" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#c7b5ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e8ecff" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="m-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <ellipse cx="38" cy="90" rx="26" ry="6" fill="#f3c9a8" opacity="0.55" filter="url(#m-blur)"/>
+  <circle cx="60" cy="63" r="27" fill="url(#m-orb)" opacity="0.94"/>
+  <circle cx="60" cy="63" r="26.5" fill="none" stroke="url(#m-orb-rim)" stroke-width="1.2"/>
+  <path d="M21 22c0-8.5 5-14 12.5-14h1C40.5 8 45 12 45 18v68c0 2-1.5 3-3.2 3H24c-1.8 0-3-1.3-3-3z"
+    fill="url(#m-stem)"/>
+  <path d="M21 22c0-8.5 5-14 12.5-14h1C40.5 8 45 12 45 18v68c0 2-1.5 3-3.2 3H24c-1.8 0-3-1.3-3-3z"
+    fill="none" stroke="url(#m-stem-rim)" stroke-width="1"/>
+  <path d="M44.6 40.5A27 27 0 0 1 44.6 85.5" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="0.8"/>
+  </svg>
