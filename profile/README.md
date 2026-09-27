@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="mark.svg" width="72" alt="" />
+  <img src="lockup.png" width="520" alt="backlit.ink" />
 </p>
-
-<h1 align="center">backlit.ink</h1>
 
 <p align="center">Sell an NFT on Robinhood Chain without publishing the price.</p>
 
