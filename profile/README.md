@@ -10,7 +10,9 @@ On Backlit, only the buyer, the seller and the creator know what an NFT sold
 for. Each sale settles in one transaction with the creator's royalty paid in
 full, and leaves a public receipt showing the new owner.
 
-Live on Robinhood Chain testnet at [testnet.backlit.ink](https://testnet.backlit.ink). Mainnet opens soon.
+Live on Robinhood Chain at [backlit.ink](https://backlit.ink), and on testnet at
+[testnet.backlit.ink](https://testnet.backlit.ink). Deployed addresses are in
+[`contracts/deployments/`](https://github.com/backlit-ink/protocol/tree/main/contracts/deployments).
 
 ### Open source
 
